@@ -1,0 +1,72 @@
+Assignment Submission
+
+Project Title 	Road Segmentation
+Technologies	Deep Learning
+Domain	Deep Learning
+
+
+Problem Statement: 
+The goal of this project is to:
+Create a deep learning (segmentation) model which fulfill the below:
+1. Road segmentation which inferences on video and real time webcam feed.
+2. The created model must run on a mobile platform. 
+3. FPS required at least 7-8.
+4. You can use TensorFlow or Pytorch to train the model and convert it to mobile compatible format.
+5. Accuracy needed at least 75-80% for segmentation.
+
+
+Approach: 
+The classical machine learning tasks like Data Exploration, Data Cleaning, Feature Engineering, Model Building and Model Testing. Try out different deep learning algorithms that’s best fit for the above case. 
+Some Famous pre trained model: - pointrend_resnet50.pkl, mask_rcnn_coco.h5
+
+
+Links: 
+https://github.com/ayoolaolafenwa/PixelLib/releases/download/0.2.0/pointrend_resnet50.pkl
+https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.2/mask_rcnn_coco.h5
+Demo link 
+https://github.com/rajdubey09/BS-Submission
+
+
+Results: You have to build a solution that should able to segment using Camera like below given result.
+
+ 
+
+Note: 
+• Due to computational power of my system it is not loading all the modules as per the requirement, I tried with couple of different solutions. I can’t provide the test results this time but pretty sure this will work once the required modules installed properly.
+• The camera is opening using cv2 but due to tensorflow-gpu it is not able to load the models and buildozer to convert it as Android Applicaton.
+• If you want to run the code provided in the github link, please ensure you have downloaded the model link provided in this document 
+
+
+
+
+Project Evaluation metrics: 
+Code: 
+• Supposed to write a code in a modular fashion 
+• Safe: It can be used without causing harm. 
+• Testable: It can be tested at the code level. 
+• Maintainable: It can be maintained, even as your codebase grows. 
+• Portable: It works as Android App 
+• I have maintained your code on GitHub. 
+• I have kept my GitHub repo public so that anyone can check your code. 
+• Proper readme file you have to maintain for any project development. 
+• I have included basic workflow and execution of the entire project in the readme file on GitHub
+
+Database: 
+• NA
+
+Cloud: 
+• I can use any cloud platform for this entire solution hosting like GCP, AWS, Azure, but the requirement is to deploy this model as an Android Application and code is available on Github
+
+API Details or User Interface: 
+• NA
+
+Ops Pipeline: 
+• NA
+
+Deployment: 
+• Need to deploy this solution as an Android Application.
+
+Project code:
+https://github.com/rajdubey09/BS-Submission
+
+

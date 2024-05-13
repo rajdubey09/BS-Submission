@@ -1,5 +1,0 @@
-opencv-python
-scikit-learn
-pillow
-pixellib
-tensorflow-gpu
